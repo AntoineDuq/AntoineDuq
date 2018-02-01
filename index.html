@@ -1,384 +1,317 @@
-
 <!doctype html>
-<html lang="fr">
-<head>
+<html lang="en">
 
-	<meta charset="utf-8">
-	<title>Antoine Duquenoy</title>
-	<link rel="stylesheet" href="style_s.css" type="text/css" media="screen and (max-width: 320px)"/>
-	<link rel="stylesheet" href="style_m.css" type="text/css" media="screen and (min-width:321px) and (max-width:768px)"/>
-	<link rel="stylesheet" href="style_l.css" type="text/css" media="screen and (min-width: 769px)"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<head>
+		<meta charset="utf-8">
 
-</head>
+		<title>Antoine Duquenoy</title>
 
-<body>
+		<meta name="description" content="Resume with reveal.js">
+		<meta name="author" content="Antoine Duquenoy">
 
-<div id="slider1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<nav>
-	<ul>
-		<li><a class="js-scrollTo" href="#slider1">HOME</a></li>
-        <li><a class="js-scrollTo" href="#about">RESUME</a></li>
-        <li><a class="js-scrollTo" href="#slider3">PORTFOLIO</a></li>
-		<li><a class="js-scrollTo" href="#">CONTACT</a></li>
-    </ul>
-</nav>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<table id="page-table"><tr><td id="page-td">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/me.css">
 
-	<div id="global">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<img src="photo.png" class="profil">
-		<h1>Antoine Duquenoy</h1>
-		<h2>UI/UX Designer | Front-End Developer | Photography</h2>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 
-		<div id="social">
-		<a href="#"><img class="social" src="fb.png"></a>
-		<a href="#"><img class="social" src="tw.png"></a>
-		<a href="#"><img class="social" src="yt.png"></a>
-		<a href="#"><img class="social" src="ph.png"></a>
-		<a href="#"><img class="social" src="in.png"></a>
-		</div>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
 
-		<div id="button">
-		<a href="#"><div class="button"><img src="fly.png" style="height:16px; line-height:50px; margin-right:10px;">TRAVEL BLOG</div></a>
-		<a href="#"><div class="button"><img src="img.png" style="height:16px; line-height:50px; margin-right:10px;">GALLERY</div></a>
-		<a href="#"><div class="button"><img src="pc.png" style="height:16px; line-height:50px; margin-right:10px;">TECH BLOG</div></a>
-		</div>
+	<body style="background:#1c1e20;background:-moz-radial-gradient(center,circle cover,#555a5f 0,#1c1e20 100%);background:-webkit-gradient(radial,center center,0,center center,100%,color-stop(0%,#555a5f),color-stop(100%,#1c1e20));background:-webkit-radial-gradient(center,circle cover,#555a5f 0,#1c1e20 100%);background:-o-radial-gradient(center,circle cover,#555a5f 0,#1c1e20 100%);background:-ms-radial-gradient(center,circle cover,#555a5f 0,#1c1e20 100%);background:radial-gradient(center,circle cover,#555a5f 0,#1c1e20 100%);">
 
-	</div>
-
-</td></tr></table>
-
-<footer>
-	<a class="js-scrollTo" href="#about"><img class="arrow" src="arrow.png"></a>
-</footer>
-
-</div>
-
-<div class="slider-sepa"></div>
-
-<div id="about">
-	<div class="title">Hi, I’m Antoine !</div>
-	<div class="aboutText">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et porta urna. In ullamcorper auctor semper. Donec finibus, elit nec rutrum mollis, sem dui congue diam, id sagittis sem ex id lorem. Nunc nec accumsan velit, at tempus dui. In placerat, massa vel faucibus venenatis, urna augue dapibus enim, vel tristique arcu orci non enim. Morbi viverra, ex et posuere gravida, lectus purus malesuada elit, vestibulum hendrerit nulla lectus vel libero. Donec sed scelerisque tortor. In dolor urna, tincidunt nec commodo a, fermentum hendrerit nunc.
-	</div>
-	<div id="infoperso">
-		<div class="phone"><img src="phone.png" style="height:16px; margin-right:10px;">+336-715-839-74</div>
-		<div class="country"><img src="world.png" style="height:16px; margin-right:10px;">FRANCE</div>
-		<div class="dateofbirth"><img src="birthday.png" style="height:16px; margin-right:10px;">15.07.1996</div>
-	</div>
-	<div id="buttons">
-		<a href="#"><div class="downloadButton"><img src="download.png" style="height:16px; margin-right:10px;">DOWNLOAD RESUME</div></a>
-		<a href="#"><div class="hireButton"><img src="briefcase.png" style="height:16px; margin-right:10px;">HIRE ME FOR WORK</div></a>
-	</div>
-</div>
 		
-<div id="resume-content">
+		<div class="reveal">
 
-	<div class="title2">
-		<div class="tg">
-			<div class="t11">EDUCATION & DIPLOMAS</div>
-			<div class="t2">MY ACADEMIC CAREER</div>
-		</div>
-	</div>
+		<!--
+			<div id="top_menu_contener">
+				<a href="#"><div style="font-weight:bold; color:#aa2233;" class="top_menu_content">Accueil</div></a>
+				<a href="#workexp"><div class="top_menu_content">Expériences</div></a>
+				<a href="#education"><div class="top_menu_content">Formation</div></a>
+				<a href="#skills"><div class="top_menu_content">Compétences</div></a>
+				<a href="#misc"><div class="top_menu_content">Divers</div></a>
+			</div>		
+		-->
+		
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="#596275">
+					<img src="me.png" style="width:15%; background:none; border:none; box-shadow:none;">
+					<h4 style="color:#aa2233">Antoine Duquenoy</h5>
+					<h5 style="font-size:0.7em; text-transform:none; font-weight:600;">Polytech Lille Student</h6>
+					<p>
+						<small style="font-style:italic;">Informatique Micro-électronique et Automatique (IMA)</small>
+					</p>
+					<div onclick="document.location = 'cv.pdf';"id="download_resume">Télécharger mon CV</div>
+					<div id="social_media">
+						<a href="https://www.facebook.com/antoine.duquenoy"><img src="facebook.png" style="margin-right:7px; margin-left:7px; width:32px; background:none; border:none; box-shadow:none;" class="img_social"></a>
+						<a href="https://twitter.com/DuquenoyAntoine"><img src="twitter.png" style="margin-right:7px; margin-left:7px; width:32px; background:none; border:none; box-shadow:none;" class="img_social"></a>
+						<a href="https://www.linkedin.com/in/antoine-duquenoy-295a2034/"><img src="linkedin.png" style="margin-right:7px; margin-left:7px; width:32px; background:none; border:none; box-shadow:none;" class="img_social"></a>
+						<a href="https://github.com/AntoineDuq"><img src="github.png" style="margin-right:7px; margin-left:7px; width:32px; background:none; border:none; box-shadow:none;" class="img_social"></a>
+					</div>
+				</section>
 
-	<div id="edu">
-	
-		<div class="bar"></div>
-	
-		<div class="edu">
-			<div class="eduText">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle"></div>
+				<section id="workexp">
+					<section>
+						<h3>Expériences</h3>
+						<p style="font-size:0.65em">Projets consultables sur <a href="https://github.com/AntoineDuq">GitHub</a><p>
+						<h4>↓</h4>
+					</section>
+					
+					
+					
+					<section data-background="#6a89cc">
+						<h3>Projet - Exploration du réseau TOR</h3>
+						<h5><a>JANVIER 2018 - En cours</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Etat de l'art du réseau</li>
+							<li>Implémentation d'un réseau Tor privé sur des machines virtuelles (Xen)</li>
+							<li>Analyse des échanges TCP (Wireshark, Tcpdump)</li>
+						</blockquote>
+					</section>
+
+					<section data-background="#4a69bd">
+						<h3>Projet - Manette USB</h3>
+						<h5><a>DECEMBRE 2017 - 40 heures</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Etude du protocole USB</li>
+							<li>Shield Arduino utilisé comme manette</li>
+							<li>Utilisation de libusb (hôte), LUFA (Atmega16u2 de l'Arduino) et ncurses</li>
+							<li>Réalisation d'un Snake en C avec ncurses, controlé par la manette</li>
+						</blockquote>
+					</section>
+					
+					<section data-background="#1e3799">
+						<h3>Projet - Ordonnanceur Atmega328p</h3>
+						<h5><a>OCTOBRE 2017 - 12 heures</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Réalisation d'un Round-Robin non préemptif pour Arduino Uno</li>
+						</blockquote>
+					</section>						
+
+					<section id="wwoofing" data-background="#0c2461">
+						<h3>WWOOFING - Vancouver Island</h3>
+						<h5><a>JUIN 2017 - 2½ mois</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Immersion en solitaire dans un pays anglophone</li>
+							<li>Sens de l'effort physique</li>
+							<li>Valeurs de partage et d'échange</li>
+						</blockquote>
+					</section>					
+					
+					<section data-background="#0a3d62">
+						<h3>Projet - Pot de fleur connecté</h3>
+						<h5><a>JANVIER 2017 - 1 semestre</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Application WEB de contrôle (température, humidité, pompe) hébergé sur un Raspberry Pi et son serveur websockets</li>
+							<li>Communication série entre l'Arduino du pot et la Raspberry Pi</li>
+							<li>Routage et conception de PCB</li>
+							<li>Découverte du FPGA qui devait à terme remplacer l'Arduino</li>
+						</blockquote>
+					</section>						
+
+					<section data-background="#3c6382">
+						<h3>Projet - Lecture et recherche dans un CSV (C)</h3>
+						<h5><a>MARS 2017 - 40 heures</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Utilisation adéquates des structures de données : listes chainées, table de hachage ...</li>
+							<li>Optimisation de la vitesse d'exécution et limitation de la mémoire</li>
+						</blockquote>
+					</section>
+					
+					<section data-background="#60a3bc">
+						<h3>Projet - Traitement d'image (C)</h3>
+						<h5><a>OCTOBRE 2016 - 40 heures</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Création d'un utilitaire permettant le traitement d'une image au format PPM</li>
+							<li>Application de différents filtres simplistes</li>
+							<li>Reprise du projet (Janvier 2018) en JAVA, ajouts de filtres : Sobel, Floyd-Steinberg</li>
+						</blockquote>
+					</section>					
+					
+					<section data-background="#82ccdd">
+						<h3>Bureau d'étude - Robotique</h3>
+						<h5><a>JANVIER 2016 - 1 semestre</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Création d'un robot intelligent à l'aide d'un microcontrôleur Arduino</li>
+							<li>Dimensionnment et modélisation de pièces mécaniques</li>
+							<li>Respect d'un cahier des charges</li>
+						</blockquote>
+					</section>
+					<section data-background="#38ada9">
+						<h3>Stage - EuraTechnologies</h3>
+						<h5><a>JUIN 2015 - 1 mois</a></h5>
+						<blockquote style="padding:30px;margin-top:50px;font-size:0.8em;">
+							<li>Création d'une interface web de supervision des imprimantes et de suivi de commandes</li>
+							<li>Webdesign et intégration de la maquette</li>
+							<li>Référencement des commandes dans une base de données</li>
+							<li>Création d'une newsletter en HTML</li>
+						</blockquote>
+					</section>
+			
+				</section>
+
+				<section id="education">
+					<h3>Formation</h3>
+						<table style="font-size:0.65em;">
+						   <tr class="tr_work">
+							  <td style="border-bottom:1px solid #fff;font-weight:bold;padding:30px;text-align:left;">2016-2019</td>
+							  <td style="padding:30px;text-align:left;">Ecole d'ingénieurs Polytech Lille</td>
+							  <td style="padding:30px;text-align:left;">Département IMA</br><span style="font-size:0.5em">Microprocesseurs (AVR), systèmes et réseaux, informatique fondamentale, POO, traitement de l’information numérique</span></td>
+						   </tr>
+						   <tr class="tr_work2">
+							  <td style="border-bottom:1px solid #fff;font-weight:bold;padding:30px;text-align:left;">2014-2016</td>
+							  <td style="padding:30px;text-align:left;">Ecole d'ingénieurs Polytech Lille</td>
+							  <td style="padding:30px;text-align:left;">Classe préparatoire intégrée</br><span style="font-size:0.5em">Mathématiques, physique, mécanique, informatique</span></td>
+						   </tr>
+						   <tr class="tr_work">
+							  <td style="font-weight:bold;padding:30px;text-align:left;">2014</td>
+							  <td style="padding:30px;text-align:left;">Lycée - LICP Tourcoing</td>
+							  <td style="padding:30px;text-align:left;">BAC S (mention bien et européenne)</td>
+						   </tr>
+						</table>
+				</section>
+
+				<section id="skills">
+					<section>
+						<h3>Compétences</h3>
+						<p style="font-weight:bold; color:#aa2233;">PROGRAMMATION</p>
+						<table style="width:50%">
+						  <tr>
+							<td>C</td>
+							<td>●●●●○</td> 
+						  </tr>
+						  <tr>
+							<td>Java</td>
+							<td>●●●○○</td> 
+						  </tr>
+						  <tr>
+							<td>Python</td>
+							<td>●●●○○</td> 
+						  </tr>
+						  <tr>
+							<td>HTML/CSS</td>
+							<td>●●●●○</td> 
+						  </tr>
+						  <tr>
+							<td>JavaScript</td>
+							<td>●●○○○</td> 
+						  </tr>
+						  <tr>
+							<td>PHP/SQL</td>
+							<td>●●●○○</td> 
+						  </tr>					  
+						</table>
+					</section>
+					<section>
+						<h4 style="font-weight:bold; color:#aa2233;">SYSTEME & RESEAU</h4>
+						<table style="width:50%">
+						  <tr>
+							<td>Bash</td>
+							<td>●●●○○</td> 
+						  </tr>
+						  <tr>
+							<td>IOS</td>
+							<td>●●○○○</td> 
+						  </tr>						  
+						</table>
+					</section>
+					<section>
+						<h4 style="font-weight:bold; color:#aa2233;">OUTILS</h4>
+						<table style="width:50%">
+						  <tr>
+							<td>Photoshop</td>
+							<td>●●●●○</td> 
+						  </tr>
+						  <tr>
+							<td>Illustrator</td>
+							<td>●●●○○</td> 
+						  </tr>
+						  <tr>
+							<td>LaTeX</td>
+							<td>●●●○○</td> 
+						  </tr>
+						  <tr>
+							<td>Git</td>
+							<td>●●○○○</td> 
+						  </tr>							  
+						</table>
+					</section>
+					<section>
+						<h4 style="font-weight:bold; color:#aa2233;">AUTRES</h4>
+						<table style="width:50%">
+						  <tr>
+							<td>Anglais</td>
+							<td>●●●●○</td> 
+						  </tr>
+						  <tr>
+							<td>Allemand</td>
+							<td>●●○○○</td> 
+						  </tr>
+						  <tr>
+							<td>Permis B</td>
+							<td style="font-size:0.6em">Avec véhicule</td> 
+						  </tr>				  
+						</table>
+					</section>
+				</section>
+				
+				<section id="misc">
+					<h2>Activités</h2>
+					<p>
+						Handball, VTT, Randonnée, Développement WEB, Infographie, DIY, Photographie, Actualité scientifique/technologique
+					</p>
+				</section>
+
+
 			</div>
-			<div class="progress"><img src="grad.png" style="height:15px; margin-top:21px;"></div>
-			<div class="eduDate">2015</div>
+
 		</div>
 
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-		<div class="edu">
-			<div class="eduDate2">2015</div>
-			<div class="progress2"><img src="grad.png" style="height:15px; margin-top:21px;"></div>
-			<div class="eduText2">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle2"></div>
-			</div>
-		</div>				
+		<script>
 
-		<div class="edu">
-			<div class="eduText">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle"></div>
-			</div>
-			<div class="progress"><img src="grad.png" style="height:15px; margin-top:21px;"></div>
-			<div class="eduDate">2015</div>
-		</div>
-		
-		
-	</div>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-	<div class="info">
-	
-		<div class="title2">
-			<div class="tg">
-				<div class="t13">HOBBIES & INTERESTS</div>
-				<div class="t23">WHAT I DO AFTER WORK</div>
-			</div>
-		</div>	
-		
-		<div class="hobby"><img src="plane.png" style="height:60px; margin-top:30px;"><p>TRAVEL</p></div>
-		<div class="hobby"><img src="pc2.png" style="height:60px; margin-top:30px;"><p>COMPUTER</p></div>
-		<div class="hobby"><img src="cam.png" style="height:60px; margin-top:30px;"><p>PHOTO</p></div>
-		<div class="hobby"><img src="sprint.png" style="height:60px; margin-top:30px;"><p>HANDBALL</p></div>
-		<div class="hobby"><img src="book.png" style="height:60px; margin-top:30px;"><p>READING</p></div>
-	
-	</div>
-	
-	<div class="title2">
-		<div class="tg">
-			<div class="t12">WORK EXPERIENCE</div>
-			<div class="t2">MY PREVIOUS ASSOCIATIONS</div>
-		</div>
-	</div>		
-	
-	<div id="edu">
-	
-		<div class="bar"></div>
-	
-		<div class="edu">
-			<div class="eduText">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle"></div>
-			</div>
-			<div class="w-progress"><img src="briefcase.png" style="height:25px; margin-top:17px;"></div>
-			<div class="eduDate">2015</div>
-		</div>
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/menu-master/menu.js' }
+				]
+			});
 
-		<div class="edu">
-			<div class="eduDate2">2015</div>
-			<div class="w-progress2"><img src="briefcase.png" style="height:25px; margin-top:17px;"></div>
-			<div class="eduText2">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle2"></div>
-			</div>
-		</div>				
+		</script>
 
-		<div class="edu">
-			<div class="eduText">
-				<h3>Master Degree of Design</h3>
-				<h4>Senior UI Designer</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, um provident rerum.</p>
-				<div class="triangle"></div>
-			</div>
-			<div class="w-progress"><img src="briefcase.png" style="height:25px; margin-top:17px;"></div>
-			<div class="eduDate">2015</div>
-		</div>
-		
-		
-	</div>
-	
-	<div id="skills">
-	
-		<div class="title2">
-			<div class="tg">
-				<div class="t14">SKILLS</div>
-				<div class="t2">I CAN SAY I'M QUITE GOOD AT</div>
-			</div>
-		</div>	
-
-		<div id="menu-skills">
-			<a href="#skills"><div class="menu-skills-box">CODING</div></a>
-			<a href="#skills"><div class="menu-skills-box">DESIGN</div></a>
-			<a href="#skills"><div class="menu-skills-box">LANGUAGES</div></a>
-			<a href="#skills"><div class="menu-skills-box">KNOWLEDGE</div></a>
-			<a href="#skills"><div class="menu-skills-box">PERSONAL</div></a>
-		</div>
-		
-		<div class="skills-content">
-			<div class="progress-bar"><div class="progress-bar-content">HTML5</div></div>
-			<div class="progress-bar"><div class="progress-bar-content" style="width:85%;background-color:#34495e;">CSS3</div></div>
-			<div class="progress-bar"><div class="progress-bar-content" style="width:60%;background-color:#3498db;">JAVASCRIPT</div></div>
-			<div class="progress-bar"><div class="progress-bar-content" style="width:70%;background-color:#1abc9c;">PHP & MYSQL</div></div>
-		</div>
-		
-	</div>
-	
-	
-</div>
-		
-
-<div id="slider3">
-
-	<div class="title2">
-		<div class="tg">
-			<div class="t15">PORTFOLIO</div>
-			<div class="t2">SHOWCASE OF MY LATEST WORKS</div>
-		</div>
-	</div>	
-	
-	<div id="menu-skills">
-		<a href="#slider3"><div class="menu-port-box">ALL WORKS</div></a>
-		<a href="#slider3"><div class="menu-port-box">WEBDESIGN</div></a>
-		<a href="#slider3"><div class="menu-port-box">UIDESIGN</div></a>
-		<a href="#slider3"><div class="menu-port-box">BRANDING</div></a>
-		<a href="#slider3"><div class="menu-port-box">LOGODESIGN</div></a>
-	</div>
-
-	<div id="portfolio">
-	
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="1.jpg" class="pr">
-		</div>
-		
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="2.jpg" class="pr">
-		</div>
-		
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="3.jpg" class="pr">
-		</div>
-		
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="3.jpg" class="pr">
-		</div>
-		
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="1.jpg" class="pr">
-		</div>
-		
-		<div class="project">
-			<div class="project-overlay">
-				<div class="details">
-					<h2>Exemple 1</h2>
-					<div class="separate"></div>
-					<h3>Description image</h3>
-				</div>
-			</div>
-			<img src="2.jpg" class="pr">
-		</div>
-		
-	</div>
-
-<!--
-<nav id="mobile">
-	<ul>
-		<li><a class="js-scrollTo" href="#slider1">HOME</a></li>
-        <li><a class="js-scrollTo" href="#slider2">RESUME</a></li>
-        <li><a class="js-scrollTo" href="#slider3">PORTFOLIO</a></li>
-		<li><a class="js-scrollTo" href="#">CONTACT</a></li>
-    </ul>
-</nav>
--->
-
-
-</div>
-
-<script>
-	$(document).ready(function() {
-		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
-			var page = $(this).attr('href'); // Page cible
-			var speed = 750; // Durée de l'animation (en ms)
-			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-			return false;
-		});
-	});
-</script>
-
-<script>
-var smoothScroll = {
-    speed: 0,
-    delay: 10, // en ms
-    timer: null,
-    scrollSpeed: 4,
-    inertia: 0.95,
-    init: function(){
-        this.setEventsListeners();
-    },
-    setEventsListeners: function(){
-        var me = this;
-        $(document).bind('DOMMouseScroll mousewheel', function(e){
-            me.setSpeed(e.originalEvent);
-        });
-	 },
-    setSpeed: function(e){
-        var direction = e.detail ? -e.detail : e.wheelDelta;
-    	this.speed += direction < 0 ? -this.scrollSpeed : this.scrollSpeed;
-    	if(this.timer == null){
-    		this.timer = setTimeout(this.smoothScroll, this.delay, this); 
-    	}
-    	e.preventDefault();
-    },
-    smoothScroll: function(scope){
-		var self = scope;
-    	self.speed *= self.inertia;
-
-        var currScrollTop = $(window).scrollTop();
-        $(window).scrollTop(currScrollTop-self.speed);
-
-    	if(self.speed < self.inertia && self.speed > -self.inertia){
-    		self.speed = 0;
-    		clearTimeout(self.timer);
-    		self.timer = null;
-    	}else{
-    		self.timer = setTimeout(self.smoothScroll, self.delay, self);
-    	}
-    }
-}
-
-smoothScroll.init();
-</script>
-
-
-</body>
+	</body>
 </html>

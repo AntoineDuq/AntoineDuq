@@ -1,0 +1,84 @@
+#top_menu_contener
+{
+	position:absolute;
+	z-index:99;
+	height:90px;
+	width:100%;
+	text-align:center;
+	line-height:90px;
+}
+
+.top_menu_content
+{
+	display:inline-block;
+	position:relative;
+	color:#ffffff;
+	font-family: Ubuntu, "sans-serif";
+	font-size:20px;
+	padding:0 35px;
+	transition: all .2s ease-in-out;
+}
+
+.top_menu_content:hover
+{
+	font-weight:bold;
+	transform:scale(1.1);
+}
+
+#social_media
+{
+	height:64px;
+	width:100%;
+	text-align:center;
+	line-height:64px;
+}
+
+.img_social
+{
+	transition: all .2s ease-in-out;
+}
+
+.img_social:hover
+{
+	transform: scale(1.2);
+}
+
+#download_resume
+{
+	padding:7px;
+	font-size:0.4em;
+	text-transform:uppercase;
+	width:21%;
+	background-color:#AA2233;
+	margin:0 auto 60px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor:pointer;
+	transition: all .35s ease-in-out;
+}
+
+#download_resume:hover
+{
+	width: 25%;
+}
+
+.tr_work:hover
+{
+	background-color:#7D3B45;
+	cursor:pointer;
+}
+
+.tr_work
+{
+	padding:0;
+}
+
+.tr_work2
+{
+	background-color:rgba(255, 255, 255, 0.08);
+	cursor:pointer;
+}
+
+.tr_work2:hover
+{
+	background-color:#7D3B45;
+}
